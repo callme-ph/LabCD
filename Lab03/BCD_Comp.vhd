@@ -31,7 +31,7 @@ out_aux <= "1000000" when "0000",
  "1111000" when "0111",
  "0000000" when "1000",
  "0010000" when "1001",
- "0111111" when others;
+ "1111111" when others; -- Todos os pinos apagados caso a entrada não seja nenhuma entrada prevista.
 
 S0 <= out_aux(6);
 S1 <= out_aux(5);
