@@ -1,6 +1,8 @@
 --library ieee;
 --use ieee.std_logic_1164.all;
 
+-- Código da questão 1. b) do Laboratório de Multiplexadores e Codificadores
+
 entity Mux is
 port(
 		i0, i2, s0: in bit;
