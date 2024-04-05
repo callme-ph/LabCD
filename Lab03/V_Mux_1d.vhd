@@ -1,3 +1,5 @@
+-- Questão 1d do Laboratório 3 sobre Mutiplexadores e Decodificadores
+
 library ieee;
 use ieee.std_logic_1164.all;
 
